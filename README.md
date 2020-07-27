@@ -15,7 +15,10 @@ git clone git@github.com:alexisribault/APNIC.git
 
 ## Run Project
 ~~~
-docker-compose up
+cd APNIC
+~~~
+~~~
+docker-compose up -d
 ~~~
 
 ## Access website
@@ -23,16 +26,24 @@ here is the link where the website is running
 ~~~
 http://localhost:8080/
 ~~~
+
+## Login to wp-admin
+username: alexis
+
+password: hxT6QgGRdXEc%Fdr9k
+
 ## React Development
 this part is only required if react needs changes
 
-install node_modules:
+install node_modules on the child theme root:
 ~~~
 cd wordpress/wp-content/themes/twentytwentychild && npm install
 ~~~
-watch index.js file and build the react files to a build folder that wordpress reads
+watch index.js file and build the react files to a build folder so that wordpress can read it
+
+Under the child theme run
 ~~~
-cd wordpress/wp-content/themes/twentytwentychild && npm start
+npm start
 ~~~
 
 ## Improvements: 
