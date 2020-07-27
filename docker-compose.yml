@@ -27,7 +27,6 @@ services:
       - MYSQL_PASSWORD=apnicpassword
       - MYSQL_ROOT_PASSWORD=apnicrootpassword
     volumes:
-      #- db:/var/lib/mysql
       - ./sql:/docker-entrypoint-initdb.d:delegated
 volumes:
   wordpress:

@@ -18,8 +18,14 @@ git clone git@github.com:alexisribault/APNIC.git
 docker-compose up
 ~~~
 
+## Access website
+here is the link where the website is running
+~~~
+http://localhost:8080/
+~~~
 ## React Development
 this part is only required if react needs changes
+
 install node_modules:
 ~~~
 cd wordpress/wp-content/themes/twentytwentychild && npm install
