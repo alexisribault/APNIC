@@ -18,17 +18,18 @@ git clone git@github.com:alexisribault/APNIC.git
 docker-compose up
 ~~~
 
-## React Development (only if the code need to be updated)
+## React Development
+this part is only required if react needs changes
 install node_modules:
 ~~~
 cd wordpress/wp-content/themes/twentytwentychild && npm install
 ~~~
 watch index.js file and build the react files to a build folder that wordpress reads
 ~~~
-npm start
+cd wordpress/wp-content/themes/twentytwentychild && npm start
 ~~~
 
 ## Improvements: 
 - add .env variables
 - be more selective on what to push on github
-- separate repository for the theme
+- create a separate repository for the child theme
