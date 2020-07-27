@@ -29,7 +29,7 @@ const VirtualLab = ({ virtualLab, index }) => {
               <div>
               <Link target="a_blank" href={virtualLab.viewDetailsURL}>{virtualLab.name}</Link>
               </div>
-              <small>{virtualLab.description.substring(0,100)}</small>
+              <small>{virtualLab.description.substring(0,100)} {virtualLab.description.length > 100 ? "..." : "" }</small>
             </div>
           </div>
         </div>
