@@ -12,7 +12,7 @@ const reorder = (list, startIndex, endIndex) => {
   return result;
 };
 
-function VirtualLab({ virtualLab, index }) {
+const VirtualLab = ({ virtualLab, index }) => {
   return (
     <Draggable draggableId={`id-${virtualLab.id}`} index={index}>
       {provided => (
@@ -101,6 +101,7 @@ const App = () => {
        <Divider />
        <Box component="span">
          <Pagination
+           className="virtual-labs-pagination"
            count={Math.ceil(virtualLabs.length / itemsPerPage)}
            page={page}
            onChange={handleChange}

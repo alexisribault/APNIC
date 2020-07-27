@@ -27,3 +27,10 @@
 .virtual-lab-item__content {
     padding-left: 20px;
 }
+
+.virtual-labs-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: "center";
+    flex: 1
+}

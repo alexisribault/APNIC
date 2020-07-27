@@ -71205,7 +71205,7 @@ var reorder = function reorder(list, startIndex, endIndex) {
   return result;
 };
 
-function VirtualLab(_ref) {
+var VirtualLab = function VirtualLab(_ref) {
   var virtualLab = _ref.virtualLab,
       index = _ref.index;
   return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])(react_beautiful_dnd__WEBPACK_IMPORTED_MODULE_8__["Draggable"], {
@@ -71226,7 +71226,7 @@ function VirtualLab(_ref) {
       href: virtualLab.viewDetailsURL
     }, virtualLab.name)), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("small", null, virtualLab.description.substring(0, 100)))));
   });
-}
+};
 
 var App = function App() {
   var itemsPerPage = 10;
@@ -71323,6 +71323,7 @@ var App = function App() {
   })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["Divider"], null), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["Box"], {
     component: "span"
   }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])(_material_ui_lab__WEBPACK_IMPORTED_MODULE_7__["Pagination"], {
+    className: "virtual-labs-pagination",
     count: Math.ceil(virtualLabs.length / itemsPerPage),
     page: page,
     onChange: handleChange,
