@@ -71224,7 +71224,7 @@ var VirtualLab = function VirtualLab(_ref) {
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("div", null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_5__["default"], {
       target: "a_blank",
       href: virtualLab.viewDetailsURL
-    }, virtualLab.name)), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("small", null, virtualLab.description.substring(0, 100)))));
+    }, virtualLab.name)), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("small", null, virtualLab.description.substring(0, 100), " ", virtualLab.description.length > 100 ? "..." : ""))));
   });
 };
 
