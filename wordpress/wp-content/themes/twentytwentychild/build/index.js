@@ -71215,21 +71215,12 @@ function VirtualLab(_ref) {
     return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("div", _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_2___default()({
       ref: provided.innerRef
     }, provided.draggableProps, provided.dragHandleProps), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("div", {
-      style: {
-        padding: "20px 0px",
-        display: "flex",
-        flex: 2
-      }
+      className: "virtual-lab-item"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("div", null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("img", {
-      style: {
-        maxWidth: "150px",
-        paddingTop: "5px"
-      },
+      className: "virtual-lab-item__thumbnail",
       src: virtualLab.thumbnail
     })), Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("div", {
-      style: {
-        paddingLeft: "20px"
-      }
+      className: "virtual-lab-item__content"
     }, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])("div", null, Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_4__["createElement"])(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_5__["default"], {
       target: "a_blank",
       href: virtualLab.viewDetailsURL

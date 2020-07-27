@@ -21,11 +21,11 @@ function VirtualLab({ virtualLab, index }) {
           {...provided.draggableProps}
           {...provided.dragHandleProps}
         >
-          <div style={{padding: "20px 0px", display: "flex", flex: 2}}>
+          <div className="virtual-lab-item">
             <div>
-              <img style={{maxWidth: "150px", paddingTop: "5px"}} src={virtualLab.thumbnail} />
+              <img className="virtual-lab-item__thumbnail" src={virtualLab.thumbnail} />
             </div>
-            <div style={{paddingLeft: "20px"}}>
+            <div className="virtual-lab-item__content">
               <div>
               <Link target="a_blank" href={virtualLab.viewDetailsURL}>{virtualLab.name}</Link>
               </div>

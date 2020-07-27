@@ -11,3 +11,19 @@
 */
 
 @import url("../twentytwenty/style.css");
+
+/* react list */
+.virtual-lab-item {
+    padding: 20px 0px;
+    display: flex;
+    flex: 2;
+}
+
+.virtual-lab-item__thumbnail {
+    max-width: 150px;
+    padding-top: 5px;
+}
+
+.virtual-lab-item__content {
+    padding-left: 20px;
+}
